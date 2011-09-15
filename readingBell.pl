@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 if (scalar(@ARGV) < 3) {
 	print "Usage: \n";
-	print "\t ./readingTimer.pl [start_page] [num_pages_to_read] [num_seconds_per_page]\n";
+	print "\t $0 [start_page] [num_pages_to_read] [num_seconds_per_page]\n";
+	exit(0);
 }
 $start_page = $ARGV[0];
 $num_pages = $ARGV[1];
